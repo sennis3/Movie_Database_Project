@@ -1,0 +1,36 @@
+﻿Instructions For Installing The Application Software
+
+
+When installing all of the software listed below, make sure you’re installing with root access on your computer.
+
+
+Python 3.85
+This application runs on Python 3.85. The version seemed to be important as Python 3.9 didn’t seem to be compatible with pandas or matplotlib. This version of python can be found online at python.org. Make sure you check the box to add it to PATH.
+
+
+Mysql-connector-python
+This is what I used in my application to connect the MySQL database to the python program.
+It can be installed with “pip install msql-connector-python”
+
+
+Numpy
+If you don’t already have numpy installed on your machine, you can install it with “pip install numpy” on the command line
+
+
+Pandas
+Pandas is what is used in my application to plot the graphs and charts. This can be installed with “pip install pandas” on the command line
+
+
+Matplotlib
+Matplotlib is required to use pandas. Install it on the command line with “pip install matplotlib”
+
+
+
+
+Instructions for Running Application
+
+
+One option for running the application is to open an IDLE window with Python, open the application’s python program, and click Run Module.
+
+
+Another option is to do it on the command line by navigating to the application project folder and typing “python CS480_MovieProject.py”

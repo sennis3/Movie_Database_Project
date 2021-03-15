@@ -1,0 +1,10 @@
+﻿Project Summary
+
+
+I’d say I both learned a lot and had to draw a lot of knowledge gained from previous CS courses to accomplish my finished project. The earlier assignments helped with designing the database structure and using queries to properly analyze my data in the way I wanted to. I did at first however, struggle to connect my database to an external program, especially since I opted to use python instead of java or node.js, which was what was shown more in class. I had to go through the mysql_connector_python documentation to figure this out.
+
+
+Before coding the application, I predicted that the most difficult challenge would be implementing the six degrees of separation algorithm between the two actors. This part was definitely challenging but I was able to use the knowledge of AI search algorithms I had learned recently from CS 411. What really turned out to be the most challenging part of the project was figuring out the graphing libraries. I intended to use neo4j when I first started, but this turned out to be too difficult to learn in the short time I had, so I pivoted to Python because I saw online that it had simple to use graphing libraries. Unfortunately, I ran into installation and compatibility problems with Python 3.9, so I reverted back to Python 3.85 to solve this. Setting up the graphing libraries and learning how to use them well took up the bulk of the time I spent on this project.
+
+
+If I were to build an application in the future accessing data and doing something similar, I would probably try to use javascript instead and set up a webpage. I decided to use python with a pop-up window interface because it was more likely to get done in the amount of time that I had. I hadn’t used javascript in a while and I was worried that it would take too long to re-learn. However, I do believe that a webpage layout would’ve looked a little better and more professional than the GUI I created. I also wish I could’ve gone for a more sophisticated graphing library. I used a very simple one, but there are others that let you do a lot more with them. I just didn’t have the time to learn how to use them.
